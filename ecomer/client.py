@@ -37,7 +37,6 @@ class Client:
 
     def get_metrics(self, mmsi: str, start_date: str, end_date: str, aggregate: str = "1m", save_format: str = None, fields: dict = {}):
 
-        # data = pd.DataFrame()
         _start_date = datetime.strptime(start_date, "%Y-%m-%d")
         _end_date   = datetime.strptime(end_date, "%Y-%m-%d")
         _days       = pd.date_range(_start_date, _end_date, freq='D').strftime("%Y-%m-%d")
@@ -50,7 +49,6 @@ class Client:
             params = dict(aggregate=aggregate, start_date=_start_date, end_date=_end_date)
             if fields:
                 params["fields"] = fields
-                print(params)
             response = self.fetch(f"vessels/{mmsi}/metrics", params=params)
             if "data" in response:
                 data += response["data"]
