@@ -38,7 +38,7 @@ print(vessels)
 
 All vessels are identified using their MMSI.
 
-Get metrics for a vessel, for a date range.
+Get the metrics of vessel for a date range.
 
 ```python
 # get metrics
@@ -46,7 +46,7 @@ data = client.get_metrics(mmsi=vessels[0]["id"], start_date="2024-05-01T00:00:00
 print(data)
 ```
 
-Get metrics for a vessel, for a date range in CSV.
+Get the metrics of vessel for a date range in CSV.
 
 ```python
 # get metrics and save in CSV format
@@ -54,7 +54,7 @@ data = client.get_metrics(mmsi=vessels[0]["id"], start_date="2024-05-01T00:00:00
 print(data)
 ```
 
-Get metrics for a vessel, for a date range in SHP.
+Get the metrics of vessel for a date range in SHP.
 
 ```python
 # get metrics and save in SHP format
