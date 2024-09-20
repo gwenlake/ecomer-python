@@ -1,6 +1,6 @@
 
 
-<h1 align="center"><img src="images/ecomer.svg" width="300" /> <br>Ecomer Data Python Library</h1>
+<h1 align="center"><img src="images/ecomer.svg" width="300" /> <br><br>Ecomer Data Python Library</h1>
 
 The Ecomer Python library provides convenient access to the Ecomer Data API
 from applications written in the Python language.
