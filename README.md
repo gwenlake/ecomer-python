@@ -1,3 +1,5 @@
+![Ecomer Data](images/ecomer.svgg)
+
 <h1 align="center">Ecomer Data Python Library</h1>
 
 The Ecomer Python library provides convenient access to the Ecomer Data API
