@@ -13,7 +13,7 @@ client = ecomer.Client(os.getenv("ECOMER_API_KEY"))
 
 for vessel in client.get_vessels():
 
-    data = client.get_metrics(vessel["id"], start_date=start_date, end_date=end_date)
+    data = client.get_metrics(mmsi=vessel["id"], start_date=start_date, end_date=end_date)
     
     print(data)
 
