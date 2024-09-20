@@ -1,4 +1,4 @@
-![Ecomer Data](images/ecomer.svgg)
+![Ecomer Data](images/ecomer.svg)
 
 <h1 align="center">Ecomer Data Python Library</h1>
 
