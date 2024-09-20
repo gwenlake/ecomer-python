@@ -1,6 +1,6 @@
-# Ecomer Python Library
+<h1 align="center">Ecomer Data Python Library</h1>
 
-The Ecomer Python library provides convenient access to the Ecomer API
+The Ecomer Python library provides convenient access to the Ecomer Data API
 from applications written in the Python language.
 
 
