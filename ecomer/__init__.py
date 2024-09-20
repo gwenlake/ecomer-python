@@ -14,6 +14,3 @@ __all__ = [
     "__version__",
     "Client",
 ]
-
-api_key  = os.environ.get("ECOMER_API_KEY")
-
